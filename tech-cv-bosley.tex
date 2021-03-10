@@ -1,0 +1,96 @@
+\documentclass{resume}
+\begin{document}
+
+\fontfamily{ppl}\selectfont
+
+\noindent
+\begin{tabularx}{\linewidth}{@{}m{0.8\textwidth} m{0.2\textwidth}@{}}
+{
+    \Large{Mitchell Bosley} \newline
+    \small{
+      Ph.D. Candidate in Political Science and Scientific Computing \newline
+      University of Michigan, Ann Arbor, MI. \newline
+        \clink{
+            \href{mailto:mcbosley@umich.edu}{mcbosley@umich.edu} \textbf{·}
+            \href{https://github.com/mbosley}{github.com/mbosley}
+            \textbf{·}
+            \href{https://mbosley.github.io}{mbosley.github.io}
+        }
+    }
+} &
+{
+    % \hfill
+    % \includegraphics[width=2.8cm]{images/gr.png}
+}
+\end{tabularx}
+\begin{center}
+\begin{tabularx}{\linewidth}{@{}*{2}{X}@{}}
+% left side %
+{
+    \csection{EDUCATION}{\small
+        \begin{itemize}
+            % item 1 %
+            \item \frcontent{Ph.D. in Political Science and Scientific Computing}{Comparative Politics and Political Methodology}{University of Michigan, Ann Arbor}{Expected 2023}
+            \item \frcontent{M.A. in Political Science}{University of British Columbia}{}{2017}
+            \item \frcontent{B.A. (Honors) in Political Science}{University of British Columbia}{}{2016}
+        \end{itemize}
+    }
+    \csection{DISSERTATION}{\small
+        \begin{itemize}
+            \item \frcontent{Measuring the Effect of Legislative Rule Change on Obstruction in the British House of Commons, 1800-2000. \clink{\href{https://mbosley.github.io/bosley_methods_minor_paper.pdf}{[working draft]}}}{I will use Item-Response Theory (IRT) and Natural Language Processing (NLP) to measure the prevalence of obstruction in a corpus of over one million legislative speeches. With this measure, I investigate whether rules that limit the ability of legislators to obstruct represent \textit{new} restrictions on behavior, or whether they are codifications of existing informal norms.}{}{Expected Defense: 2023}
+        \end{itemize}
+    }
+    \csection{SKILLS}{\small
+        \begin{itemize}
+            \item \textbf{Programming Languages and Tools} \newline
+            {\footnotesize R, Python, Julia, SQL, Bash, Makefile, Slurm, Git, GitHub, Jupyter, Emacs}{}{}
+            \item \textbf{Statistics and Machine Learning} \newline
+            {\footnotesize Bayesian statistics, linear models, measurement/scaling models, neural networks, supervised and semi-supervised classification algorithms, topic models.}
+            % \item \textbf{Project Management} \newline
+            % {\footnotesize Github, }
+        \end{itemize}
+    }
+}
+% end left side %
+&
+% right side %
+{
+    \csection{PROJECTS}{\small
+        \begin{itemize}
+            \item \frcontent{activeText \clink{\href{https://mbosley.github.io/active.pdf}{[paper]}}}{An open-source active learning library for the statistical programming language R.}{}{With \href{https://ksaki.github.io}{S. Kuzushima}, \href{https://shiraito.github.io}{Y. Shiraito} and \href{https://tedenamorado.com}{T. Enamorado}.}
+            \item \frcontent{India Leg. Debates, 1850-1948. \clink{\href{https://mbosley.github.io/Does_Franchise_Expansion_Affect_Legislative_Activity_-2.pdf}{[paper]}}}{Scraping, parsing, and analyzing 100 years of Indian legislative debates to estimate the effect of suffrage expansion on legislative behavior.}{}{With \href{https://sites.lsa.umich.edu/htzaw/}{Htet Thiha Zaw.}}
+        \end{itemize}
+    }
+
+    \csection{RESEARCH EXPERIENCE}{\small
+        \begin{itemize}
+            % item 1 %
+            \item \frcontent{Research Assistant}{Professor \href{https://sites.lsa.umich.edu/tsebelis/}{George Tsebelis}}{End-to-end design and execution of BERT-based algorithm for classifying constitutional revisions as significant or not.}{2021}
+            % item 2 %
+            \item \frcontent{Research Assistant}{Professor \href{https://sites.lsa.umich.edu/cjfong/}{Christian Fong}}{Data-set construction, involving web scraping, data reshaping, and coding a recursive algorithm from scratch to match Senator objections to motions in the 93rd to 114th US Senate.}{2020}
+            % item 3 %
+            \item \frcontent{Research Assistant}{Professor \href{https://shiratio.github.io}{Yuki Shiraito}}{Derived and coded an EM algorithm for estimating the parameters of a multinomial mixture model for text classification, and embedded it within an active learning algorithm. Used cluster computing platform SLURM to massively parallelize model parameter exploration.}{2019}
+        \end{itemize}
+    }
+    % \csection{HOBBIES \& INTERESTS}{\small
+    %     \vspace{0.32cm}
+    %     \begin{tabularx}{\linewidth}{@{}*{4}{>{\centering\arraybackslash}X}@{}}
+    %         {\centering
+    %         \includegraphics[width=0.8cm]{images/userexperience.png}
+    %         } &
+    %         {\centering
+    %         \includegraphics[width=0.8cm]{images/lamp.png}
+    %         } &
+    %         {\centering
+    %         \includegraphics[width=0.8cm]{images/healthcare.png}
+    %         } &
+    %         {\centering
+    %         \includegraphics[width=0.8cm]{images/cauldron.png}
+    %         } \\
+    %         {\footnotesize UI/UX} & {\footnotesize Problem Solving} & {\footnotesize Healthcare} & {\footnotesize Open Source}
+    %     \end{tabularx}
+    % }
+}
+\end{tabularx}
+\end{center}
+\end{document}
